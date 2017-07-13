@@ -1,0 +1,10 @@
+﻿  Source.cpp
+c:\users\id student\desktop\myfirstthing\myfirstthing\source.cpp(145): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\id student\desktop\myfirstthing\myfirstthing\source.cpp(149): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\id student\desktop\myfirstthing\myfirstthing\source.cpp(150): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\id student\desktop\myfirstthing\myfirstthing\source.cpp(168): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\id student\desktop\myfirstthing\myfirstthing\source.cpp(171): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\id student\desktop\myfirstthing\myfirstthing\source.cpp(186): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\id student\desktop\myfirstthing\myfirstthing\source.cpp(188): warning C4305: '=': truncation from 'double' to 'float'
+  MyFirstThing.vcxproj -> C:\Users\iD Student\Desktop\MyFirstThing\Debug\MyFirstThing.exe
+  MyFirstThing.vcxproj -> C:\Users\iD Student\Desktop\MyFirstThing\Debug\MyFirstThing.pdb (Full PDB)
