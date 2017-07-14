@@ -192,7 +192,7 @@ cout << "How Many People are in your Party? (Max 250)" << endl;
 		sTax["Wyoming"] = 4;
 		sTax["Dist of Columbia"] = 5.75;
 
-		PersonMoney = pMoney[PersonNumber--];
+		double sReal;
 
 		cout << "What State Are you In? " << endl;
 
@@ -201,19 +201,23 @@ cout << "How Many People are in your Party? (Max 250)" << endl;
 		while (thing4 == 0) 
 		{
 
-		sTax.find(sName)->second /= 100;
+		PersonMoney = pMoney[PersonNumber--];
 
-		cout << sTax.find(sName)->second << endl;
+		sReal = sTax.find(sName)->second ;
 
-		sTax.find(sName)->second++;
+		sReal /= 100;
 
-		cout << sTax.find(sName)->second << endl;
+		cout << "Tax /100 " << sTax.find(sName)->second << endl;
 
-		PersonMoney *= sTax.find(sName)->second;
+		sReal ++;
+
+		cout << "Tax +1 " << sTax.find(sName)->second << endl;
+
+		PersonMoney *= sReal;
 
 		PersonNumber++;
 
-		cout << PersonMoney << endl;
+		cout << "Ammount with tax " << PersonMoney << endl;
 
 		if (PersonNumber == Ammount) 
 		{
@@ -221,6 +225,8 @@ cout << "How Many People are in your Party? (Max 250)" << endl;
 			thing4 = 1;
 
 		}
+
+		sReal = sTax.find(sName)->second;
 
 		PersonNumber++;
 
