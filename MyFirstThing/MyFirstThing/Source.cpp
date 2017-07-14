@@ -203,15 +203,15 @@ cout << "How Many People are in your Party? (Max 250)" << endl;
 
 		PersonMoney = pMoney[PersonNumber--];
 
-		sReal = sTax.find(sName)->second ;
+		sReal = sTax.find(sName)->second;
 
 		sReal /= 100;
 
-		cout << "Tax /100 " << sTax.find(sName)->second << endl;
+		cout << "Tax /100 " << sReal << endl;
 
 		sReal ++;
 
-		cout << "Tax +1 " << sTax.find(sName)->second << endl;
+		cout << "Tax +1 " << sReal << endl;
 
 		PersonMoney *= sReal;
 
@@ -306,7 +306,13 @@ cout << "How Many People are in your Party? (Max 250)" << endl;
 
 		pTip[PersonNumber] /= 100;
 
+		cout << pTip[PersonNumber] << endl;
+
 		pTip[PersonNumber] += 1;
+
+		cout << pTip[PersonNumber] << endl;
+
+		PersonNumber++;
 
 		cout << pTip[PersonNumber] << endl;
 
@@ -315,10 +321,6 @@ cout << "How Many People are in your Party? (Max 250)" << endl;
 		pMoney[PersonNumber] = PersonMoney;
 
 		cout << PersonMoney << endl;
-
-		PersonNumber++;
-
-		PersonNumber++;
 
 		cout << endl;
 
